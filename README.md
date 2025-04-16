@@ -57,11 +57,11 @@ Follow these steps to set up the project locally:
    pip install -r requirements.txt
    ```
 
-   **For gemini model**:
+   For gemini model:
 
-```bash
-pip install langchain-google-genai==0.0.6 google-generativeai==0.3.2
-```
+   ```bash
+   pip install langchain-google-genai==0.0.6 google-generativeai==0.3.2
+   ```
 
 4. **Run the application**:
 
