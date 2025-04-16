@@ -10,3 +10,4 @@ langchain_experimental
 langchain-google-genai==0.0.6
 google-generativeai==0.3.2
 -e . #To make it as local package
+sentence-transformers
