@@ -31,8 +31,8 @@ Follow these steps to set up the project locally:
 1. **Clone the repository**:
 
    ```bash
-   git clone <repository-url>
-   cd <project-folder>
+   git clone https://github.com/Rashmi-K-V/GenAI-Based-Medical-ChatBot.git
+   cd GenAI-Based-Medical-ChatBot
    ```
 
 2. **Create and activate a virtual environment**:
