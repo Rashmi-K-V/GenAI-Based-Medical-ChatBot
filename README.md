@@ -33,20 +33,6 @@ A Generative AI-powered Medical ChatBot built using the Gale Encyclopedia of Med
 - [PyMuPDF / PyPDFLoader](https://pypi.org/project/pymupdf/)
 - [Jupyter Notebook](https://jupyter.org/) (for development and testing)
 
-## Technologies Used
-
-- **Flask**: Lightweight web framework for building the backend of the chatbot.
-- **LangChain**: A framework for building applications that use large language models (LLMs).
-- **Pinecone**: Vector database for storing and querying medical knowledge embeddings.
-- **Gemini**: A large language model for natural language understanding and generation.
-- **Python**: The primary programming language used.
-
-## Features
-
-- **Conversational Medical Assistance**: The chatbot can answer various medical-related questions based on its training data and external knowledge sources.
-- **Contextual Conversations**: The chatbot can retain context across interactions to provide more accurate answers.
-- **Knowledge Search**: Uses Pinecone to search through indexed medical knowledge for relevant information.
-
 ## Setup and Installation
 
 Follow these steps to set up the project locally:
