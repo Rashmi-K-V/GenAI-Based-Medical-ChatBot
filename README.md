@@ -1,6 +1,37 @@
-# Medical Chatbot
+# 🧠 GenAI-Based Medical ChatBot
 
-A medical chatbot built using Gemini, LangChain, Pinecone, and Flask. This project provides a conversational AI that can assist with answering medical-related queries.
+A Generative AI-powered Medical ChatBot built using the Gale Encyclopedia of Medicine as its knowledge base. This chatbot can intelligently answer medical queries by extracting and processing content from a trusted PDF source using LLMs like **Gemini** and **LangChain**. Vector search is powered by **Pinecone**, and the app is served with **Flask**.
+
+---
+
+## 🚀 Features
+
+- 📚 **Gale Encyclopedia of Medicine Integration**  
+  Extracts and chunks data from a PDF medical encyclopedia to serve as the knowledge base.
+
+- 🔎 **Contextual Semantic Search**  
+  Uses vector similarity search (via Pinecone) to find the most relevant context chunks for each query.
+
+- 💬 **LLM-Powered Response Generation**  
+  Generates high-quality medical answers using Gemini or other LLMs integrated via LangChain.
+
+- 🌐 **Web Interface (Flask)**  
+  A simple and user-friendly web interface to interact with the chatbot.
+
+- 🧠 **LangChain Support**  
+  Easily extensible using LangChain’s modular architecture.
+
+---
+
+## 🛠️ Tech Stack
+
+- [Python](https://www.python.org/)
+- [Flask](https://flask.palletsprojects.com/)
+- [LangChain](https://www.langchain.com/)
+- [Google Generative AI (Gemini)](https://ai.google.dev/)
+- [Pinecone](https://www.pinecone.io/)
+- [PyMuPDF / PyPDFLoader](https://pypi.org/project/pymupdf/)
+- [Jupyter Notebook](https://jupyter.org/) (for development and testing)
 
 ## Technologies Used
 
