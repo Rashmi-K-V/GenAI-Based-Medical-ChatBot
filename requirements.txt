@@ -3,7 +3,7 @@ langchain
 flask
 pypdf  #to extract from pdf
 python-dotenv
-pinecone[grps]
+pinecone[grpc]
 langchain-pinecone
 langchain_community
 langchain_experimental
